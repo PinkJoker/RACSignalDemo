@@ -1,0 +1,6 @@
+framework module Pods_RACSignalDemo {
+  umbrella header "Pods-RACSignalDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
