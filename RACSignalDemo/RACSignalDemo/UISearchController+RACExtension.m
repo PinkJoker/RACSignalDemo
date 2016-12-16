@@ -37,7 +37,7 @@
 {
     self.delegate = self;
     RACSignal *signal = objc_getAssociatedObject(self, _cmd);
-    if (!signal) {
+    if (signal !=nil) {
         return signal;
     }
     RACSignal *willPresentSearching = [[self rac_signalForSelector:@selector(willPresentSearchController:) fromProtocol:@protocol(UISearchControllerDelegate)]mapReplace:@YES];

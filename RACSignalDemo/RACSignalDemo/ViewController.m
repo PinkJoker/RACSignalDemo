@@ -38,13 +38,14 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
-    RAC(self,searchResults) = [self rac_liftSelector:@selector(search:) withSignals:self.searchController.rac_signal, nil];
-//    RAC(self, searchResults) = [self rac_liftSelector:@selector(search:) withSignalsFromArray:@[self.searchController.]]];
+    //RAC(self,searchResults) = [self rac_liftSelector:@selector(search:) withSignals:self.searchController.rac_signal, nil];
+    RAC(self, searchResults) = [self rac_liftSelector:@selector(search:) withSignalsFromArray:@[self.searchController.rac_signal]];
     @weakify(self);
     [self.searchController.rac_signal subscribeNext:^(id x) {
         @strongify(self);
         [self.tableView reloadData];
     }];
+    RAC(self,searching) = self.searchController.rac_isActiveSignal;
 }
 
 -(NSArray *)search:(NSString *)searchText
@@ -54,8 +55,6 @@
         for (NSString *text in self.searchTexts) {
             if ([[text lowercaseString]rangeOfString:[searchText lowercaseString]].location != NSNotFound) {
                 [results addObject:text];
-            }else{
-                results = [self.searchTexts copy];
             }
         }
     }else{
@@ -78,6 +77,16 @@
     } else {
         return self.searchTexts.count;
     }
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier ];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    cell.textLabel.text = self.isSearching ? self.searchResults[indexPath.row] : self.searchTexts[indexPath.row];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning {
