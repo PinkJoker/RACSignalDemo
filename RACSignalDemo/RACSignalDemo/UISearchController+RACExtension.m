@@ -7,12 +7,13 @@
 //
 
 #import "UISearchController+RACExtension.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
+//#import <ReactiveCocoa/ReactiveCocoa.h>
 #import <objc/objc-runtime.h>
 @interface UISearchController ()<UISearchResultsUpdating,UISearchControllerDelegate>
 
 @end
 @implementation UISearchController (RACExtension)
+
 -(RACSignal *)rac_signal
 {
     self.searchResultsUpdater = self;

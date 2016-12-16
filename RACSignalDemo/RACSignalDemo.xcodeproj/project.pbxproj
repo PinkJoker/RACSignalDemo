@@ -32,7 +32,7 @@
 		379CEDB01E027FA4005E54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchController+RACExtension.h"; sourceTree = "<group>"; };
 		379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchController+RACExtension.m"; sourceTree = "<group>"; };
-		37CA35F01E03947D00058328 /* UISearchController_exten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISearchController_exten.h; sourceTree = "<group>"; };
+		37CA35F11E03983200058328 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		EDB7472B20F27FBF0F8ED856 /* Pods-RACSignalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 				379CEDA61E027FA4005E54CF /* ViewController.m */,
 				379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */,
 				379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */,
-				37CA35F01E03947D00058328 /* UISearchController_exten.h */,
+				37CA35F11E03983200058328 /* PrefixHeader.pch */,
 				379CEDA81E027FA4005E54CF /* Main.storyboard */,
 				379CEDAB1E027FA4005E54CF /* Assets.xcassets */,
 				379CEDAD1E027FA4005E54CF /* LaunchScreen.storyboard */,
@@ -356,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CSVJ5Z326T;
+				GCC_PREFIX_HEADER = /Users/XingShanKeJi/Desktop/RACSignalDemo/RACSignalDemo/RACSignalDemo/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 				INFOPLIST_FILE = RACSignalDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -371,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CSVJ5Z326T;
+				GCC_PREFIX_HEADER = /Users/XingShanKeJi/Desktop/RACSignalDemo/RACSignalDemo/RACSignalDemo/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 				INFOPLIST_FILE = RACSignalDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

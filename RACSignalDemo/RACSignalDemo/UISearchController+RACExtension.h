@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UISearchController (RACExtension)
-
+-(RACSignal *)rac_signal;
+-(RACSignal *)rac_isActiveSignal;
 @end
