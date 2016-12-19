@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769FC891E04E24C00432D38 /* SecondViewController.m */; };
 		379CEDA11E027FA4005E54CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA01E027FA4005E54CF /* main.m */; };
 		379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA31E027FA4005E54CF /* AppDelegate.m */; };
 		379CEDA71E027FA4005E54CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA61E027FA4005E54CF /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		1B9CD5B2C341D393710F347C /* Pods-RACSignalDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F997483364C7261ACB5773F /* Pods_RACSignalDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACSignalDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3769FC881E04E24C00432D38 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3769FC891E04E24C00432D38 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		379CED9C1E027FA4005E54CF /* RACSignalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACSignalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		379CEDA01E027FA4005E54CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		379CEDA21E027FA4005E54CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 				379CEDA31E027FA4005E54CF /* AppDelegate.m */,
 				379CEDA51E027FA4005E54CF /* ViewController.h */,
 				379CEDA61E027FA4005E54CF /* ViewController.m */,
+				3769FC881E04E24C00432D38 /* SecondViewController.h */,
+				3769FC891E04E24C00432D38 /* SecondViewController.m */,
 				379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */,
 				379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */,
 				37CA35F11E03983200058328 /* PrefixHeader.pch */,
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */,
 				379CEDA71E027FA4005E54CF /* ViewController.m in Sources */,
 				379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */,
 				379CEDB81E0288F0005E54CF /* UISearchController+RACExtension.m in Sources */,

@@ -17,17 +17,16 @@
 -(RACSignal *)rac_signal
 {
     self.searchResultsUpdater = self;
+    //根据关联的key获取关联的值
     RACSignal *signal = objc_getAssociatedObject(self, _cmd);
+    NSLog(@"=====%@",NSStringFromSelector(_cmd));
     if (signal !=nil) {
         return signal;
     }
     signal = [[self rac_signalForSelector:@selector(updateSearchResultsForSearchController:) fromProtocol:@protocol(UISearchResultsUpdating)]map:^id(RACTuple *value) {
         UISearchController *searchController = value.first;
-        NSLog(@"%@",value.first);
-        NSLog(@"%@",value.third);
         return searchController.searchBar.text;
     }];
-    
     objc_setAssociatedObject(self, _cmd, signal, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     NSLog(@"%@",signal);
     return signal;

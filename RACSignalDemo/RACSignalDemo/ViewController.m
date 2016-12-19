@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UISearchController+RACExtension.h"
+#import "SecondViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, strong)UITableView *tableView;
 @property(nonatomic, strong)UISearchController *searchController;
@@ -28,9 +29,7 @@
     self.searchResults = @[];
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height) style:UITableViewStylePlain];
     [self.view addSubview:self.tableView];
-    
-    
-    
+
     self.searchController = [[UISearchController alloc]initWithSearchResultsController:nil];
     [self.searchController.searchBar sizeToFit];
     self.tableView.tableHeaderView = self.searchController.searchBar;
@@ -87,6 +86,12 @@
     }
     cell.textLabel.text = self.isSearching ? self.searchResults[indexPath.row] : self.searchTexts[indexPath.row];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SecondViewController *second = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:second animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
