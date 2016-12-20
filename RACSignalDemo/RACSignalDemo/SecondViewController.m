@@ -7,25 +7,50 @@
 //
 
 #import "SecondViewController.h"
-
-@interface SecondViewController ()
-@property(nonatomic, strong)UITextField *textField;
-@property(nonatomic, strong)UIButton *button;
-@property(nonatomic, strong)UIImageView *iconImage;
-@property(nonatomic, strong)UILabel *nameLabel;
-@property(nonatomic, strong)UITableView *tableView;
+#import "SecondTableViewCell.h"
+@interface SecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
 @implementation SecondViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view.
-    
+    self.BackViewConstraint.constant += 100;
+    self.iconImageView.backgroundColor = [UIColor cyanColor];
+    self.iconImageView.layer.cornerRadius = 5;
+    self.iconImageView.layer.borderWidth = 0;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.tableHeaderView = self.headerBGView;
+
     
 }
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SecondTableViewCell *secondCell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (secondCell == nil) {
+        secondCell = [[SecondTableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    return secondCell;
+}
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 10;
+}
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+}
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

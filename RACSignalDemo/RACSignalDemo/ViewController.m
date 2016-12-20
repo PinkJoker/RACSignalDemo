@@ -90,7 +90,8 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    SecondViewController *second = [[SecondViewController alloc]init];
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    SecondViewController *second = [story instantiateViewControllerWithIdentifier:@"second"];
     [self.navigationController pushViewController:second animated:YES];
 }
 

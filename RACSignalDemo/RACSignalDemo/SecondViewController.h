@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *BackViewConstraint;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *BackViewConstraint;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIButton *GoAction;
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UIView *headerBGView;
 
 @end

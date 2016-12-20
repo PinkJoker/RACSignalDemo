@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		374E8BF41E08C5360080B8A7 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */; };
 		3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769FC891E04E24C00432D38 /* SecondViewController.m */; };
 		379CEDA11E027FA4005E54CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA01E027FA4005E54CF /* main.m */; };
 		379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA31E027FA4005E54CF /* AppDelegate.m */; };
@@ -15,12 +16,15 @@
 		379CEDAC1E027FA4005E54CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379CEDAB1E027FA4005E54CF /* Assets.xcassets */; };
 		379CEDAF1E027FA4005E54CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CEDAD1E027FA4005E54CF /* LaunchScreen.storyboard */; };
 		379CEDB81E0288F0005E54CF /* UISearchController+RACExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */; };
+		37CEF8E81E09086D00CF781C /* SecondVCViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */; };
 		6B3B97DE96E5CFB227CE0CBF /* Pods_RACSignalDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F997483364C7261ACB5773F /* Pods_RACSignalDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B9CD5B2C341D393710F347C /* Pods-RACSignalDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F997483364C7261ACB5773F /* Pods_RACSignalDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACSignalDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374E8BF21E08C5360080B8A7 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
+		374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 		3769FC881E04E24C00432D38 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3769FC891E04E24C00432D38 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		379CED9C1E027FA4005E54CF /* RACSignalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACSignalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +40,8 @@
 		379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchController+RACExtension.h"; sourceTree = "<group>"; };
 		379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchController+RACExtension.m"; sourceTree = "<group>"; };
 		37CA35F11E03983200058328 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37CEF8E61E09086D00CF781C /* SecondVCViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVCViewModal.h; sourceTree = "<group>"; };
+		37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVCViewModal.m; sourceTree = "<group>"; };
 		EDB7472B20F27FBF0F8ED856 /* Pods-RACSignalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +92,10 @@
 				379CEDA61E027FA4005E54CF /* ViewController.m */,
 				3769FC881E04E24C00432D38 /* SecondViewController.h */,
 				3769FC891E04E24C00432D38 /* SecondViewController.m */,
+				374E8BF21E08C5360080B8A7 /* SecondTableViewCell.h */,
+				374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */,
+				37CEF8E61E09086D00CF781C /* SecondVCViewModal.h */,
+				37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */,
 				379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */,
 				379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */,
 				37CA35F11E03983200058328 /* PrefixHeader.pch */,
@@ -241,6 +251,8 @@
 				3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */,
 				379CEDA71E027FA4005E54CF /* ViewController.m in Sources */,
 				379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */,
+				374E8BF41E08C5360080B8A7 /* SecondTableViewCell.m in Sources */,
+				37CEF8E81E09086D00CF781C /* SecondVCViewModal.m in Sources */,
 				379CEDB81E0288F0005E54CF /* UISearchController+RACExtension.m in Sources */,
 				379CEDA11E027FA4005E54CF /* main.m in Sources */,
 			);
