@@ -7,7 +7,27 @@
 //
 
 #import "SecondVCViewModal.h"
-
+#import "TweetsViewModal.h"
 @implementation SecondVCViewModal
 
+
+-(void)getTweetsForCurrentUsername
+{
+    
+}
+-(BOOL)allTweetsLoaded
+{
+    return YES;
+}
+
+-(void)loadMoreTweets
+{
+    
+}
+
+-(void)viewModalForCurrentUser
+{
+    TweetsViewModal *userProfileViewModal = [self.tweetVModal viewModalForCurrentUser];
+    
+}
 @end

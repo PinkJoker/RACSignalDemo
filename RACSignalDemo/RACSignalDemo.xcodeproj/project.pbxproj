@@ -17,6 +17,7 @@
 		379CEDAF1E027FA4005E54CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379CEDAD1E027FA4005E54CF /* LaunchScreen.storyboard */; };
 		379CEDB81E0288F0005E54CF /* UISearchController+RACExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */; };
 		37CEF8E81E09086D00CF781C /* SecondVCViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */; };
+		37CEF8EB1E090F4500CF781C /* TweetsViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CEF8EA1E090F4500CF781C /* TweetsViewModal.m */; };
 		6B3B97DE96E5CFB227CE0CBF /* Pods_RACSignalDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F997483364C7261ACB5773F /* Pods_RACSignalDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		37CA35F11E03983200058328 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		37CEF8E61E09086D00CF781C /* SecondVCViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVCViewModal.h; sourceTree = "<group>"; };
 		37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVCViewModal.m; sourceTree = "<group>"; };
+		37CEF8E91E090F4500CF781C /* TweetsViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewModal.h; sourceTree = "<group>"; };
+		37CEF8EA1E090F4500CF781C /* TweetsViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewModal.m; sourceTree = "<group>"; };
 		EDB7472B20F27FBF0F8ED856 /* Pods-RACSignalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +99,8 @@
 				374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */,
 				37CEF8E61E09086D00CF781C /* SecondVCViewModal.h */,
 				37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */,
+				37CEF8E91E090F4500CF781C /* TweetsViewModal.h */,
+				37CEF8EA1E090F4500CF781C /* TweetsViewModal.m */,
 				379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */,
 				379CEDB71E0288F0005E54CF /* UISearchController+RACExtension.m */,
 				37CA35F11E03983200058328 /* PrefixHeader.pch */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CEF8EB1E090F4500CF781C /* TweetsViewModal.m in Sources */,
 				3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */,
 				379CEDA71E027FA4005E54CF /* ViewController.m in Sources */,
 				379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */,
