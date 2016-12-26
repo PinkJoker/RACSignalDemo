@@ -27,7 +27,7 @@
 
 -(void)viewModalForCurrentUser
 {
-    TweetsViewModal *userProfileViewModal = [self.tweetVModal viewModalForCurrentUser];
+  //  TweetsViewModal *userProfileViewModal = [self.tweetVModal viewModalForCurrentUser];
     
 }
 @end

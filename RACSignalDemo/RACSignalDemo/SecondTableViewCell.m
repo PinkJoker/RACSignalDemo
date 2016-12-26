@@ -42,7 +42,9 @@
         make.left.mas_equalTo(weakSelf.iconImageView.mas_right).offset(20);
         make.top.mas_equalTo(weakSelf.iconImageView.mas_top).offset(5);
         make.right.mas_equalTo(10);
-        
+    }];
+    [self.subhead mas_makeConstraints:^(MASConstraintMaker *make) {
+//       make.left.mas_equalTo
     }];
     
 //    self.userName.preferredMaxLayoutWidth = [self.contentView.bounds.size.width -]
