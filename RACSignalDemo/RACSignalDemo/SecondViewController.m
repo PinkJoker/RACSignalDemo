@@ -8,6 +8,7 @@
 
 #import "SecondViewController.h"
 #import "SecondTableViewCell.h"
+#import "LoginViewController.h"
 @interface SecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -49,7 +50,13 @@
 {
     return 1;
 }
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    LoginViewController *login = [[LoginViewController alloc]init];
+    [self presentViewController:login animated:YES completion:^{
+        
+    }];
+}
 
 
 - (void)didReceiveMemoryWarning {

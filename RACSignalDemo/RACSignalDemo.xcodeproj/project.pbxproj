@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3744EF811E10B8CD00755D50 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF801E10B8CD00755D50 /* LoginViewController.m */; };
+		3744EF841E10B8E200755D50 /* LoginViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF831E10B8E200755D50 /* LoginViewModal.m */; };
+		3744EF871E10B90400755D50 /* LoginScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF861E10B90400755D50 /* LoginScrollView.m */; };
+		3744EF8A1E10C05D00755D50 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF891E10C05C00755D50 /* LoginTextField.m */; };
+		3744EF8D1E10C2D900755D50 /* TextFieldLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF8C1E10C2D900755D50 /* TextFieldLeftView.m */; };
+		3744EF901E10DD1300755D50 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744EF8E1E10DD1300755D50 /* password.png */; };
+		3744EF911E10DD1300755D50 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744EF8F1E10DD1300755D50 /* user.png */; };
+		3744EF931E10DF9D00755D50 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3744EF921E10DF9D00755D50 /* close.png */; };
+		3744EF961E10EE4B00755D50 /* RegisterScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF951E10EE4B00755D50 /* RegisterScrollView.m */; };
+		3744EF991E10F30600755D50 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF981E10F30600755D50 /* RegisterViewController.m */; };
+		3744EF9C1E110B4900755D50 /* haveLeftViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF9B1E110B4900755D50 /* haveLeftViewTextField.m */; };
+		3744EF9F1E11104E00755D50 /* UIColor+YHColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3744EF9E1E11104E00755D50 /* UIColor+YHColor.m */; };
 		374E8BF41E08C5360080B8A7 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */; };
 		3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3769FC891E04E24C00432D38 /* SecondViewController.m */; };
 		379CEDA11E027FA4005E54CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379CEDA01E027FA4005E54CF /* main.m */; };
@@ -24,6 +36,27 @@
 /* Begin PBXFileReference section */
 		1B9CD5B2C341D393710F347C /* Pods-RACSignalDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACSignalDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RACSignalDemo/Pods-RACSignalDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F997483364C7261ACB5773F /* Pods_RACSignalDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACSignalDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3744EF7F1E10B8CD00755D50 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3744EF801E10B8CD00755D50 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3744EF821E10B8E200755D50 /* LoginViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModal.h; sourceTree = "<group>"; };
+		3744EF831E10B8E200755D50 /* LoginViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModal.m; sourceTree = "<group>"; };
+		3744EF851E10B90400755D50 /* LoginScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScrollView.h; sourceTree = "<group>"; };
+		3744EF861E10B90400755D50 /* LoginScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScrollView.m; sourceTree = "<group>"; };
+		3744EF881E10C05C00755D50 /* LoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
+		3744EF891E10C05C00755D50 /* LoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
+		3744EF8B1E10C2D900755D50 /* TextFieldLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldLeftView.h; sourceTree = "<group>"; };
+		3744EF8C1E10C2D900755D50 /* TextFieldLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldLeftView.m; sourceTree = "<group>"; };
+		3744EF8E1E10DD1300755D50 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		3744EF8F1E10DD1300755D50 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		3744EF921E10DF9D00755D50 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		3744EF941E10EE4B00755D50 /* RegisterScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterScrollView.h; sourceTree = "<group>"; };
+		3744EF951E10EE4B00755D50 /* RegisterScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterScrollView.m; sourceTree = "<group>"; };
+		3744EF971E10F30600755D50 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3744EF981E10F30600755D50 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		3744EF9A1E110B4900755D50 /* haveLeftViewTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haveLeftViewTextField.h; sourceTree = "<group>"; };
+		3744EF9B1E110B4900755D50 /* haveLeftViewTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = haveLeftViewTextField.m; sourceTree = "<group>"; };
+		3744EF9D1E11104E00755D50 /* UIColor+YHColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YHColor.h"; sourceTree = "<group>"; };
+		3744EF9E1E11104E00755D50 /* UIColor+YHColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YHColor.m"; sourceTree = "<group>"; };
 		374E8BF21E08C5360080B8A7 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
 		374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 		3769FC881E04E24C00432D38 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -99,6 +132,27 @@
 				374E8BF31E08C5360080B8A7 /* SecondTableViewCell.m */,
 				37CEF8E61E09086D00CF781C /* SecondVCViewModal.h */,
 				37CEF8E71E09086D00CF781C /* SecondVCViewModal.m */,
+				3744EF7F1E10B8CD00755D50 /* LoginViewController.h */,
+				3744EF801E10B8CD00755D50 /* LoginViewController.m */,
+				3744EF971E10F30600755D50 /* RegisterViewController.h */,
+				3744EF981E10F30600755D50 /* RegisterViewController.m */,
+				3744EF851E10B90400755D50 /* LoginScrollView.h */,
+				3744EF861E10B90400755D50 /* LoginScrollView.m */,
+				3744EF9D1E11104E00755D50 /* UIColor+YHColor.h */,
+				3744EF9E1E11104E00755D50 /* UIColor+YHColor.m */,
+				3744EF941E10EE4B00755D50 /* RegisterScrollView.h */,
+				3744EF951E10EE4B00755D50 /* RegisterScrollView.m */,
+				3744EF9A1E110B4900755D50 /* haveLeftViewTextField.h */,
+				3744EF9B1E110B4900755D50 /* haveLeftViewTextField.m */,
+				3744EF881E10C05C00755D50 /* LoginTextField.h */,
+				3744EF891E10C05C00755D50 /* LoginTextField.m */,
+				3744EF921E10DF9D00755D50 /* close.png */,
+				3744EF8B1E10C2D900755D50 /* TextFieldLeftView.h */,
+				3744EF8C1E10C2D900755D50 /* TextFieldLeftView.m */,
+				3744EF8E1E10DD1300755D50 /* password.png */,
+				3744EF8F1E10DD1300755D50 /* user.png */,
+				3744EF821E10B8E200755D50 /* LoginViewModal.h */,
+				3744EF831E10B8E200755D50 /* LoginViewModal.m */,
 				37CEF8E91E090F4500CF781C /* TweetsViewModal.h */,
 				37CEF8EA1E090F4500CF781C /* TweetsViewModal.m */,
 				379CEDB61E0288F0005E54CF /* UISearchController+RACExtension.h */,
@@ -192,8 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3744EF931E10DF9D00755D50 /* close.png in Resources */,
 				379CEDAF1E027FA4005E54CF /* LaunchScreen.storyboard in Resources */,
+				3744EF911E10DD1300755D50 /* user.png in Resources */,
 				379CEDAC1E027FA4005E54CF /* Assets.xcassets in Resources */,
+				3744EF901E10DD1300755D50 /* password.png in Resources */,
 				379CEDAA1E027FA4005E54CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +311,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CEF8EB1E090F4500CF781C /* TweetsViewModal.m in Sources */,
+				3744EF8D1E10C2D900755D50 /* TextFieldLeftView.m in Sources */,
 				3769FC8A1E04E24C00432D38 /* SecondViewController.m in Sources */,
 				379CEDA71E027FA4005E54CF /* ViewController.m in Sources */,
+				3744EF961E10EE4B00755D50 /* RegisterScrollView.m in Sources */,
+				3744EF9C1E110B4900755D50 /* haveLeftViewTextField.m in Sources */,
 				379CEDA41E027FA4005E54CF /* AppDelegate.m in Sources */,
+				3744EF841E10B8E200755D50 /* LoginViewModal.m in Sources */,
 				374E8BF41E08C5360080B8A7 /* SecondTableViewCell.m in Sources */,
+				3744EF871E10B90400755D50 /* LoginScrollView.m in Sources */,
+				3744EF811E10B8CD00755D50 /* LoginViewController.m in Sources */,
+				3744EF991E10F30600755D50 /* RegisterViewController.m in Sources */,
 				37CEF8E81E09086D00CF781C /* SecondVCViewModal.m in Sources */,
+				3744EF8A1E10C05D00755D50 /* LoginTextField.m in Sources */,
 				379CEDB81E0288F0005E54CF /* UISearchController+RACExtension.m in Sources */,
 				379CEDA11E027FA4005E54CF /* main.m in Sources */,
+				3744EF9F1E11104E00755D50 /* UIColor+YHColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
